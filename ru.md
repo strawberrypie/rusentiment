@@ -234,12 +234,157 @@ We had a good tournament, but fuuuck me. What a terrible way to go out. FML<span
 
 Abbreviations like LOL and OMG should also be taken into account.
 
+# Hashtags
+
+Hashtags are generally treated as information units, similarly to words. The following example should be annotated as positive because both *lifeisgood* and *happymonday* are generally positive experiences:
+
+- Be yourself. Everyone else is taken. #happymonday #Lifeisgood #Livefully <span style="float:right;"> [no sentiment]</span>
+- We couldn’t make this #beauty up if we tried!  #bermuda #ocean #vacation #sun <span style="float:right;"> [no sentiment]</span>
+
+On the other hand, similarly to words, they are to be ignored if the post consists entirely of hashtags and was probably accompanying some picture or video, and is uninterpretable without that content.
+- SayNoToRacism 
+- sayyestothedress
+- shepersisted
+
+However, some hashtags explicitly express the speaker’s mood or evaluation. In such cases, they should be treated accordingly, similarly to happy or terrible.
+
+Lewis should not be allowed to kick the ball #terrible <span style="float:right;"> [no sentiment]</span>
+My hair is sooo long #happy <span style="float:right;"> [no sentiment]</span>
+
+# Mixed sentiment
+
+Some posts contain both positive and negative sentiment words, and are therefore usually more difficult to annotate. In these cases, our policy is to annotate the DOMINANT SENTIMENT expressed in the post. That is, if you feel that overall the feeling expressed in the post is positive, it should be annotated as such (and vice versa).  For example, in the following example we have both positive and negative sentiment:
+
+I am DISGUSTED with my 2013 self. Thank god ive changed
+
+While “disgusted” could be a negative experience for the girl in question, it is outweighed by the positive evaluation that follow.
+
+As sad as I am that vacation is over, it was absolutely amazing to be back in my home, shower, bath, bed. And to see family last night. That felt great 
+
+This post also contains a negative experience “vacation is over”, but it is also clearly outweighed by the positive evaluations that follow. 
+
+1. irony, sarcasm - overall negative entity is described with positive words:
+
+- You know how I just love dog drool on my sofa <span style="float:right;"> [no sentiment]</span>
+- Thank you Captain Obvious <span style="float:right;"> [no sentiment]</span>
+- Great. Another rainy day. How wonderful <span style="float:right;"> [no sentiment]</span>
+- Ohhhh how I looove being ignored <span style="float:right;"> [no sentiment]</span>
+- My power just went out, and my mom woke me up to inform me. I'm so pleased <span style="float:right;"> [no sentiment]</span>
+- If you push it harder, it will print faster! <span style="float:right;"> [no sentiment]</span>
+
+2.  a negative characterization of some positive viewed entity, perhaps as a friendly joke:
+- Bad Santa:))) <span style="float:right;"> [no sentiment]</span>
+- You are such a bitch :)! <span style="float:right;"> [no sentiment]</span>
+
+3. an “acknowledging” characterization: the speaker says that overall, something is good or bad but it has some drawbacks or advantages:
+- I accept your apology but it is too late <span style="float:right;"> [no sentiment]</span>
+- It might not be perfect but it's still better than anything else <3 <span style="float:right;"> [no sentiment]</span>
+- It’s not in English but it’s pretty easy to navigate <span style="float:right;"> [no sentiment]</span>
+
+A frequent case of such a mixture is something positive happening despite negative factors:
+
+- Im broken, miserable and hopeless but you still love me <span style="float:right;"> [no sentiment]</span>
+- Nice crowd at Big House despite bad weather forecast <span style="float:right;"> [no sentiment]</span>
+
+Another possibility is that the positive/negative attitude towards something is situational and differing from the usual speaker’s attitude. It is the given context, some specific circumstances that change the overall evaluation. For example:
+
+- I really like my Iphone, but the reception here is very bad. <span style="float:right;"> [no sentiment]</span>
+- My day was going great until I remembered I haven’t seen my debit card in a couple days. <span style="float:right;"> [no sentiment]</span>
+
+4. comparative evaluation: something characterized as good or bad in comparison to something else:
+
+- I did much better on my SAT compared to GMAT scores. <span style="float:right;"> [no sentiment]</span>
+- Life is good alone, but always better with your special someone. <span style="float:right;"> [no sentiment]</span>
+- Cooking a vegan meal is so much harder than slapping a steak on the grill. <span style="float:right;"> [no sentiment]</span>
+- This restaurant is certainly better but it’s much more expensive <span style="float:right;"> [no sentiment]</span>
+
+The speaker’s implication here is that restaurant is better even though more expensive compared to another one (although the other restaurant is also expensive as a reference point). In such cases, the attitude towards the “main entity” rather than the reference point should be annotated.
+
+5. double sentiment of the same subject: the same segment may express both how a speaker feels and their attitude towards something, and it may differ. For example:
+
+- I miss you so much <span style="float:right;"> [no sentiment]</span>
+- I wish I had your job <span style="float:right;"> [no sentiment]</span>
+
+In both of these cases the speakers express a high opinion of something, but they feel bad for not having it. In such cases, the speaker’s mood towards something should be annotated as the main sentiment, not their attitude towards something.
+
+6. a greeting or some other speech act added to an overall neutral, informational post:
+
+Good afternoon friends! The 2018-2019 registration day is getting started here at Lincoln Middle School.  Remember to stop by between 10am and 7pm to complete the process.  <span style="float:right;"> [no sentiment]</span>
+
+# What to skip
+
+We are interested in CLEAR cases of positive or negative sentiment, so, IF IN DOUBT - SKIP IT! This especially concerns descriptions of experience that would be positive or negative for the annotator personally, but not necessarily for most people.
+
+Posts to skip include the ones in which:
+
+(1) The original meaning is impossible to ascertain without context (maybe because they were accompanied by photos, videos, or posted as replies to other posts):
+
+- Apparently, the world wanted a Fluffy Puff Mayonnaise
+- Cats, dogs, and babies, it's Tuesday!
+- Cold is with the monkey's ears and toes
+
+(2) The sentiment of the post as a whole is not entirely clear: 
+Sounds like a job for scrambled eggs with sourdough toast!
+Today I will do what others won't so tomorrow I can accomplish what others can't.
+
+- She was at the fotoshoot today
+
+(3) Languages other than English (e.g Ukrainian, Russian) are used:
+
+- Курва МАТЬ!!!! ШЕ 7 днів!!! Віпппіііііі)))))))
+- hair: Irina Skochko, make-up: Anna Kuzminykh
+- Ну а чим ще можна займатися, коли хворієш?))))
+
+(4) Jokes
+
+While jokes do imply positive mood of the user who shared them, identifying them is beyond the scope of this annotation task.  Therefore the jokes should be skipped.
+
+- A man walks up to a librarian and asks, "Do you have any books on Pavlov's dogs and Schrödinger's cat?" The librarian responds, "It rings a bell but I'm not sure if it's here or not." 
+- It’s great to be here this evening in the vast, magnificent Hilton ballroom — or what Mitt Romney would call a little fixer-upper.”
+- What did the DNA say to the other DNA? Do these genes make my butt look fat?
+
+# Training examples
+
+These pre-annotated examples were presented to annotators for training, before they proceeded to actual annotation. They got feedback on whether their label was correct, and also the reasoning behind the label that is shown below.
+
+| Post | Label | Feedback shown to the annotators |  |
+|------|------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1 | I think you are a terrific warrior. | + | The speaker explicitly expresses their belief in the high ability of the addressee. |
+| 2 | How is Elaine, she left ya yet? | - | This is also negative sentiment of the speaker, but implicit, because there are no explicit sentiment words. |
+| 3 | customer-service center on Election Day this year | Skip | This post is hard to interpret out of context. |
+| 4 | pizza and a bagel w/ cream cheese for breakfast | No sentiment | This post just describes a situation without any sentiment |
+| 5 | I want to visit my family in Arizona | + | Wanting or wishing for something implies a high evaluation of it, which is annotated as positive sentiment. |
+| 6 | My dreams come true | + | This is implicit sentiment, because the inner feelings of the speaker is described directly (although metaphorically) |
+| 7 | Merry Christmas and a happy New Year!!! | Speech-act | Congratulations, as well as greetings and expressions of gratitude should be annotated as speech-acts. |
+| 8 | I will always be proud of this lady I will miss you, definitely, but I will support you all the way! | + | Mixed explicit sentiment: the speaker has high esteem/love for someone, although their absence makes them feel bad. According to the guidelines, the dominant sentiment should be annotated, and in this case the sadness is outweighed by love. |
+| 9 | Trump’s influence is destroying America | - | This is implicit negative sentiment: the speaker shares news that he/she believes to be bad news for many people |
+| 10 | My first week of vacation starts now! | + | This is implicit sentiment: the speaker shares an experience that most people would consider positive |
+| 11 | Python is an interpreted, object-oriented, high-level programming language | No sentiment | The speaker simply states a fact |
+| 12 | Do you think that money just grows on trees? | - | This is a rhetorical question implying negative sentiment towards the target. |
+| 13 | Nice perfume. Must you marinate in it? | - | This is mixed sentiment, specifically sarcasm: the speaker uses positive words to describe an entity that is actually evaluated negatively. |
+| 14 | Oh my God! My chest actually hurts I can't focus on my work I have a test tomorrow | - | This post contains both explicit and implicit negative sentiment: explicit emotion word “Oh My God! My chest hurts”, and also implicit emotion via sharing an experience that makes the speaker feel bad “I can’t focus, I have a test”. |
+| 15 | New blog coming up tonight called “Moving Sucks” | No sentiment | The speaker shares a piece of information |
+| 16 | Trump won on bigotry and racism. | - | This is implicit negative sentiment: the speaker associates the target with concepts that most people would consider negative (bigotry, racism) |
+| 17 | Democracy matters. Without democracy we are nothing | + | This is explicit positive sentiment: we don’t know the mood of the speaker exactly, but he/she clearly states his/her opinion about the target |
+| 18 | Have fun, enjoy and meet new friends. | + | This is explicit sentiment: the speaker directly expresses his/her belief that the target would be appreciated by others |
+| 19 | Полюбляю смакоту😜😜😜   | Skip | This post is not in English |
+| 20 | All I want for Christmas is you. | + | Wanting or wishing for something implies a high evaluation of it, which is annotated as positive sentiment. |
+| 21 | More from cat FRENK's recent guests: We weren’t kidding | Skip | This post is hard to interpret |
+| 22 | To find life on Mars, we'll need new orbiters, more advanced rovers, and humans | No sentiment | This is a matter-of-fact statement, probably describing some posted media. |
+| 23 | I know this joke is stupid but I think it's also funny | + | This is mixed sentiment: the speaker expresses an overall positive evaluation of something, although it has some negative aspects. |
+| 24 | I would fly you to the moon and back | + | This is implicit sentiment: the speaker expresses wishing for an event, which implies positive aspects. |
+| 25 | honeyyyy!!! | Skip | This post is hard to interpret |
+|  | How many times do I have to tell you not to yell in the house? |  | This is a rhetorical question implying negative sentiment towards the target. |
+|  | Well, this beautiful day was a total waste of makeup. |  | This is mixed sentiment, specifically sarcasm: the speaker uses positive words to describe an entity that is actually evaluated negatively. |
+|  | I can't wait to be married. |  | Wanting or wishing for something implies a high evaluation of it, which is annotated as positive sentiment. |
 
 
 
 
 
-bla bla bla <span style="float:right;"> [no sentiment]</span>
+
+
+
 
 
 
