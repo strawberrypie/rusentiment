@@ -357,7 +357,7 @@ These pre-annotated examples were presented to annotators for training, before t
 
 |  | Post |Label  | Feedback shown to the annotators |
 |------|------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1 | Блестай на страницах мира,детка!!!! | + | The speaker explicitly expresses their belief in the high ability of the addressee. |
+| 1 | Блестай на страницах мира, детка!!!! | + | The speaker explicitly expresses their belief in the high ability of the addressee. |
 | 2 | как жизнь? зато мухам нравится... | - | This is also negative sentiment of the speaker, but implicit, because there are no explicit sentiment words. |
 | 3 | братановские розовые крепы решают! ) | Skip | This post is hard to interpret out of context. |
 | 4 | Котлеты без мяса (сыроедческие) :: Вторые | No sentiment | This post just describes a situation without any sentiment |
@@ -378,8 +378,8 @@ These pre-annotated examples were presented to annotators for training, before t
 | 19 | Полюбляю смакоту😜😜😜   | Skip | This post is not in Russian |
 | 20 | иногда хочетса быть кому-то нужной,чтобы подошол любимый человек обнял крепко, крепко и сказал что все будет харашо я с тобой. | + | Wanting or wishing for something implies a high evaluation of it, which is annotated as positive sentiment. |
 | 21 | Я: кошки, эппл, корки не oставляю, чай, стол (хотя бывает..), 50 кг, меню - по настроению)) | Skip | This post is hard to interpret |
-| 22 | TЭхо войны 🚨 | No sentiment | This is a matter-of-fact statement, probably describing some posted media. |
-| 23 | знаю,что идиотски,но весело))) | + | This is mixed sentiment: the speaker expresses an overall positive evaluation of something, although it has some negative aspects. |
+| 22 | Эхо войны 🚨 | No sentiment | This is a matter-of-fact statement, probably describing some posted media. |
+| 23 | знаю, что идиотски, но весело))) | + | This is mixed sentiment: the speaker expresses an overall positive evaluation of something, although it has some negative aspects. |
 | 24 | Вот бы махнуть в Москву на дерби))) | + | This is implicit sentiment: the speaker expresses wishing for an event, which implies positive aspects. |
 | 25 | Масяяяяяя)))) | Skip | This post is hard to interpret |
 
