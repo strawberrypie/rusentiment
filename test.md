@@ -149,7 +149,7 @@ Unfortunately, it is not always the case that a whole single post fits one of th
 
 Posts may express sentiment of two different types, for example, the speaker's mood and the speaker's attitude towards something.  The polarity of these may be the same or it may differ, creating a mixed-sentiment post.  Often, the polarity will be the same.  For example, “круто! Выиграла бесплатный билет” has both an explicit evaluation of the event (круто!) and describes the experience that would be positive for many people (Выиграла бесплатный билет). It is clear that the polarity of the post as a whole is also positive.
 
-# <a name="head3"></a>Positive speech acts
+# <a name="head3"></a> Positive speech acts
 
 A large portion of posts express perform the functions of various speech acts: expressing gratitude for something, congratulating a user or a group of users, greeting them. We treat these as a separate subcategory because, although generally greetings, congratulations and gratitude imply positive sentiment, they can also be performed, e.g., out of a feeling of obligation or under social pressure. So we would like to keep it an option to add or remove them in different research scenarios.
 
