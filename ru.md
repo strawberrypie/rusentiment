@@ -1,4 +1,8 @@
+# Annotation tool interface
 
+**picture goes here**
+
+In order to use our web-interface, you will first complete a training. Finish reading these guidelines before you proceed.  You will receive links and credentials for accessing the interface from the coordinator.  You will be presented with a set of training posts that are pre-annotated; after you enter your annotation, you will see how they should in fact be annotated. If anything is not clear, please refer to these guidelines again.
 # Sentiment annotation
 In sentiment analysis, our goal is to isolate the feeling or attitude being conveyed through a post on social media. Some posts express an obvious positive or negative sentiment or attitude towards something, and we need to select such clear, unambiguous cases. 
 
@@ -21,7 +25,6 @@ The sentiment conveyed in text may refer to (1) the speaker’s subjective mood,
 
 Both the speaker’s mood and their attitude towards something can be positive or negative:
 
-
 <table class="tg" style="width: 652px;">
 <tbody>
 <tr>
@@ -30,7 +33,7 @@ Both the speaker’s mood and their attitude towards something can be positive o
 <th class="tg-031e" style="width: 233px;">Negative</th>
 </tr>
 <tr>
-<td class="tg-031e" style="width: 182px;">Emotions, mood of the speaker</td>
+<td class="tg-031e" style="width: 182px;">**Emotions, mood of the speaker**</td>
 <td class="tg-031e" style="width: 227px;">
 <p>happiness, pride, love, inspiration, serenity, interest&hellip;</p>
 <ul>
@@ -48,7 +51,7 @@ Both the speaker’s mood and their attitude towards something can be positive o
 </td>
 </tr>
 <tr>
-<td class="tg-031e" style="width: 182px;">Evaluation, attitude towards some entity or event</td>
+<td class="tg-031e" style="width: 182px;">**Evaluation, attitude towards some entity or event**</td>
 <td class="tg-031e" style="width: 227px;">
 <ul>
 <li>I'm looking forward to next year's July event</li>
@@ -76,7 +79,7 @@ All of the above cases (whether they deal with the speaker’s emotions/mood or 
 <th class="tg-l711" style="width: 259px;">Negative</th>
 </tr>
 <tr>
-<td class="tg-l711" style="width: 137px;">Wishing (or not) for something, recommendations<br /><br />EVALUATION IS IMPLIED</td>
+<td class="tg-l711" style="width: 137px;">**Wishing (or not) for something, recommendations**<br /><br />EVALUATION IS IMPLIED</td>
 <td class="tg-l711" style="width: 229px;"><br />
 <ul>
 <li>Definitely follow these bloggers in 2018</li>
@@ -94,7 +97,7 @@ All of the above cases (whether they deal with the speaker’s emotions/mood or 
 </td>
 </tr>
 <tr>
-<td class="tg-l711" style="width: 137px;">Descriptions of experience that most people would consider positive or negative<br /><br />EMOTION IS IMPLIED</td>
+<td class="tg-l711" style="width: 137px;">**Descriptions of experience that most people would consider positive or negative**<br /><br />EMOTION IS IMPLIED</td>
 <td class="tg-l711" style="width: 229px;">
 <ul>
 <li>We won! All the love Sometimes it only takes a sunset to make you realize that life is still worth living after all</li>
