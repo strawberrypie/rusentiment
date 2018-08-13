@@ -2,6 +2,7 @@
 # Annotation tool interface
 
 ~~picture goes here~~
+![gitgub image](https://github.com/ookimi/SentimentAnnotationGuidelines/blob/master/tool_interface.png)
 
 
 <div style="text-align: justify"> In order to use our web-interface, you will first complete a training. **Finish reading these guidelines before you proceed.** You will receive links and credentials for accessing the interface from the coordinator.  You will be presented with a set of training posts that are pre-annotated; after you enter your annotation, you will see how they should in fact be annotated. If anything is not clear, please refer to these guidelines again.</div>
@@ -387,4 +388,3 @@ Today I will do what others won't so tomorrow I can accomplish what others can't
 | 28 | I can't wait to be married. | + | Wanting or wishing for something implies a high evaluation of it, which is annotated as positive sentiment. |
 
 
-<span style="float:right;"> [no sentiment]</span>
