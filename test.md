@@ -149,7 +149,7 @@ Unfortunately, it is not always the case that a whole single post fits one of th
 
 Posts may express sentiment of two different types, for example, the speaker's mood and the speaker's attitude towards something.  The polarity of these may be the same or it may differ, creating a mixed-sentiment post.  Often, the polarity will be the same.  For example, “круто! Выиграла бесплатный билет” has both an explicit evaluation of the event (круто!) and describes the experience that would be positive for many people (Выиграла бесплатный билет). It is clear that the polarity of the post as a whole is also positive.
 
-#<a name="head3"></a>Positive speech acts
+# <a name="head3"></a>Positive speech acts
 
 A large portion of posts express perform the functions of various speech acts: expressing gratitude for something, congratulating a user or a group of users, greeting them. We treat these as a separate subcategory because, although generally greetings, congratulations and gratitude imply positive sentiment, they can also be performed, e.g., out of a feeling of obligation or under social pressure. So we would like to keep it an option to add or remove them in different research scenarios.
 
@@ -175,7 +175,7 @@ This group includes:
 
 If there is clear irony, treat these as cases of mixed sentiment.
 
-#<a name="head4"></a>Posts that don't express sentiment
+# <a name="head4"></a>Posts that don't express sentiment
 
 "No sentiment” label is reserved for **posts that simply describe some situation in a neutral, matter-of-fact way**, and have no clear positive or negative sentiment. For example:</div>
 
@@ -213,7 +213,7 @@ Neutral posts do not necessarily contain full clauses. For instance, they may be
 - "Самолет с крыльями и окнами" <span style="float:right;"> [no sentiment]</span>
 - Тесты по математике, ГИА-2011, 9 класс <span style="float:right;"> [no sentiment]</span>
 
-##<a name="head5"></a>Smileys
+# <a name="head5"></a>Smileys
 
 An important caveat concerns smileys. We distinguish 3 cases:
 
@@ -249,7 +249,7 @@ Such posts should be annotated to reflect the sentiment expressed verbally.
 
 Abbreviations like LOL and OMG should also be taken into account.
 
-#<a name="head6"></a>Hashtags
+# <a name="head6"></a>Hashtags
 
 Hashtags are generally treated as information units, similarly to words. The following example should be annotated as positive because both \#выпускной and \#на пляж are generally positive experiences:
 
@@ -265,7 +265,7 @@ Hashtags are generally treated as information units, similarly to words. The fol
 - \#Дима_возмущается \#Недовольство <span style="float:right;"> [negative]</span>
 - YOUTUBE ввел нововведение: теперь видеохостинг не отображает просмотры, собранный роликами на сторонних сайтах. #мнененравится<span style="float:right;"> [negative]</span>
 
-#<a name="head7">Mixed sentiment
+# <a name="head7">Mixed sentiment
 
 Some posts contain both positive and negative sentiment words, and are therefore usually more difficult to annotate. In these cases, our policy is to annotate the **DOMINANT SENTIMENT** expressed in the post. That is, if you feel that overall the feeling expressed in the post is positive, it should be annotated as such (and vice versa).  
 
@@ -324,7 +324,7 @@ The speaker’s implication here is that Beethoven is so bad that even Bach is o
 
 - Всем​ ​желаю​ ​здравствовать​ ​!​ ​Выясняется потребность/интерес в механах из боевых бакелитовых корпусов 5,45 и 7,62, варианты для М серии...Если не трудно поделитесь опытом перепила или использования если таковой имеется.  <span style="float:right;"> [no sentiment]</span>
 
-#<a name="head8">What to skip
+# <a name="head8">What to skip
 
 We are interested in **CLEAR** cases of positive or negative sentiment, so, **IF IN DOUBT - SKIP IT!** This especially concerns descriptions of experience that would be positive or negative for the annotator personally, but not necessarily for most people.
 
@@ -356,7 +356,7 @@ While jokes do imply positive mood of the user who shared them, identifying them
 Если жизнь тебя ебет, Значит у нее встает, Значит, ты ей нравишься! Так чего ты паришься?!)))
 выпал зубик? не беда нам поможет- ПВА
 
-#<a name="head9">Training examples
+# <a name="head9">Training examples
 
 These pre-annotated examples were presented to annotators for training, before they proceeded to actual annotation. They got feedback on whether their label was correct, and also the reasoning behind the label that is shown below.
 
