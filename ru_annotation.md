@@ -145,7 +145,7 @@ All of the above cases (whether they deal with the speaker’s emotions/mood or 
 </tbody>
 </table>
 
-Unfortunately, it is not always the case that a whole single post fits one of the above categories. If the post contains several expressions of sentiment, we ask you to annotate the polarity of the post as a whole, which we define as the **dominant, prevailing sentiment**. Annotation of the mixed sentiment posts is discussed below (such as the posts containing both positive and negative sentiment).
+Unfortunately, it is not always the case that a whole single post fits one of the above categories. If the post contains several expressions of sentiment, we ask you to annotate the polarity of the post as a whole, which we define as the **dominant, prevailing sentiment**. Annotation of the mixed sentiment posts is discussed below (such as the posts containing both positive and negative sentiment) is discussed [here](#head4).
 
 Posts may express sentiment of two different types, for example, the speaker's mood and the speaker's attitude towards something.  The polarity of these may be the same or it may differ, creating a mixed-sentiment post.  Often, the polarity will be the same.  For example, “круто! Выиграла бесплатный билет” has both an explicit evaluation of the event (круто!) and describes the experience that would be positive for many people (Выиграла бесплатный билет). It is clear that the polarity of the post as a whole is also positive.
 
