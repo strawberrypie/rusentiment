@@ -1,10 +1,8 @@
 # Annotation tool interface
 
-**picture goes here**
-
 ![gitgub tool_interface](https://github.com/ookimi/SentimentAnnotationGuidelines/blob/master/tool_interface.png)
 
-In order to use our web-interface, you will first complete a training. Finish reading these guidelines before you proceed.  You will receive links and credentials for accessing the interface from the coordinator.  You will be presented with a set of training posts that are pre-annotated; after you enter your annotation, you will see how they should in fact be annotated. If anything is not clear, please refer to these guidelines again.
+In order to use our web-interface, you will first complete a training. **Finish reading these guidelines before you proceed**.  You will receive links and credentials for accessing the interface from the coordinator.  You will be presented with a set of training posts that are pre-annotated; after you enter your annotation, you will see how they should in fact be annotated. If anything is not clear, please refer to these guidelines again.
 # Sentiment annotation
 In sentiment analysis, our goal is to isolate the feeling or attitude being conveyed through a post on social media. Some posts express an obvious positive or negative sentiment or attitude towards something, and we need to select such clear, unambiguous cases. 
 
@@ -25,7 +23,7 @@ Both the speaker’s mood and their attitude towards something can be positive o
 <th class="tg-031e" style="width: 233px;">Negative</th>
 </tr>
 <tr>
-<td class="tg-031e" style="width: 182px;">**Emotions, mood of the speake**r</td>
+<td class="tg-031e" style="width: 182px;"> Emotions, mood of the speaker</td>
 <td class="tg-031e" style="width: 227px;">
 <p>happiness, pride, love, inspiration, serenity, interest&hellip;</p>
 <ul>
@@ -44,7 +42,7 @@ Both the speaker’s mood and their attitude towards something can be positive o
 </td>
 </tr>
 <tr>
-<td class="tg-031e" style="width: 182px;">**Evaluation, attitude towards some entity or event**</td>
+<td class="tg-031e" style="width: 182px;">Evaluation, attitude towards some entity or event</td>
 <td class="tg-031e" style="width: 227px;">
 <ul>
 <li>годный дабстеп, очень годный.</li>
@@ -77,7 +75,7 @@ All of the above cases (whether they deal with the speaker’s emotions/mood or 
 <th class="tg-l711" style="width: 259px;">Negative</th>
 </tr>
 <tr>
-<td class="tg-l711" style="width: 137px;">**Wishing (or not) for something, recommendations**<br /><br />EVALUATION IS IMPLIED</td>
+<td class="tg-l711" style="width: 137px;">Wishing (or not) for something, recommendations<br /><br />EVALUATION IS IMPLIED</td>
 <td class="tg-l711" style="width: 229px;"><br />
 <ul>
 <li>Хочу снега. Много-много. Чтобы снежки и снеговики. И ночью все светится!!!
@@ -90,14 +88,14 @@ All of the above cases (whether they deal with the speaker’s emotions/mood or 
 </td>
 <td class="tg-l711" style="width: 259px;">
 <ul>
-<li>Ааааа не хочу учиться:(</li>
+<li>Ааааа не хочу учиться:( </li>
 <li>Не дай бог к такому преподу попасть</li>
 <li>Не пытайся даже это есть, все равно вырвет</li>
 </ul>
 </td>
 </tr>
 <tr>
-<td class="tg-l711" style="width: 137px;">**Descriptions of experience that most people would consider positive or negative**<br /><br />EMOTION IS IMPLIED</td>
+<td class="tg-l711" style="width: 137px;">Descriptions of experience that most people would consider positive or negative<br /><br />EMOTION IS IMPLIED</td>
 <td class="tg-l711" style="width: 229px;">
 <ul>
 <li>мы победили!</li>
@@ -128,17 +126,12 @@ All of the above cases (whether they deal with the speaker’s emotions/mood or 
 </tbody>
 </table>
 
-Unfortunately, it is not always the case that a whole single post fits one of the above categories. If the post contains several expressions of sentiment, we ask you to annotate the polarity of the post as a whole, which we define as ** the dominant, prevailing sentiment**. Annotation of the mixed sentiment posts (such as the posts containing both positive and negative sentiment) is discussed in more detail on p. 7.
+Unfortunately, it is not always the case that a whole single post fits one of the above categories. If the post contains several expressions of sentiment, we ask you to annotate the polarity of the post as a whole, which we define as the **dominant, prevailing sentiment**. Annotation of the mixed sentiment posts is discussed below (such as the posts containing both positive and negative sentiment).
 
-Posts may express sentiment of two different types, for example, the speaker's mood and the speaker's attitude towards something.  The polarity of these may be the same or it may differ, creating a mixed-sentiment post.  Often, the polarity will be the same.  For example, “Great! I won a free ticket!” has both an explicit evaluation of the event (Great!) and describes the experience that would be positive for many people (won free ticket). It is clear that the polarity of the post as a whole is also positive. 
-
-<div style="text-align: justify"> Unfortunately, it is not always the case that a whole single post fits one of the above categories. If the post contains several expressions of sentiment, we ask you to annotate the polarity of the post as a whole, which we define as **the dominant, prevailing sentiment**. Annotation of the mixed sentiment posts is discussed below (such as the posts containing both positive and negative sentiment).
-
-Posts may express sentiment of two different types, for example, the speaker's mood and the speaker's attitude towards something.  The polarity of these may be the same or it may differ, creating a mixed-sentiment post.  Often, the polarity will be the same.  For example, “круто! Выиграла бесплатный билет” has both an explicit evaluation of the event (круто!) and describes the experience that would be positive for many people (Выиграла бесплатный билет). It is clear that the polarity of the post as a whole is also positive. 
-</div>
+Posts may express sentiment of two different types, for example, the speaker's mood and the speaker's attitude towards something.  The polarity of these may be the same or it may differ, creating a mixed-sentiment post.  Often, the polarity will be the same.  For example, “круто! Выиграла бесплатный билет” has both an explicit evaluation of the event (круто!) and describes the experience that would be positive for many people (Выиграла бесплатный билет). It is clear that the polarity of the post as a whole is also positive.
 
 ##  Positive speech acts 
-<div style="text-align: justify"> A large portion of posts express perform the functions of various speech acts: expressing gratitude for something, congratulating a user or a group of users, greeting them. We treat these as a separate subcategory because, although generally greetings, congratulations and gratitude imply positive sentiment, they can also be performed, e.g., out of a feeling of obligation or under social pressure. So we would like to keep it an option to add or remove them in different research scenarios. </div>
+A large portion of posts express perform the functions of various speech acts: expressing gratitude for something, congratulating a user or a group of users, greeting them. We treat these as a separate subcategory because, although generally greetings, congratulations and gratitude imply positive sentiment, they can also be performed, e.g., out of a feeling of obligation or under social pressure. So we would like to keep it an option to add or remove them in different research scenarios.
 
 This group includes: 
 
@@ -164,7 +157,7 @@ If there is clear irony, treat these as cases of mixed sentiment.
 
 ## Posts that dont express sentiment
 
-<div style="text-align: justify">"No sentiment” label is reserved for **posts that simply describe some situation in a neutral, matter-of-fact way**, and have no clear positive or negative sentiment. For example:</div>
+"No sentiment” label is reserved for **posts that simply describe some situation in a neutral, matter-of-fact way**, and have no clear positive or negative sentiment. For example:</div>
 
 - первый запуск няши разрешением 720p (800 на самом деле) <span style="float:right;"> [no sentiment]</span>
 - Вареные мидии с рисом и перцем.  <span style="float:right;"> [no sentiment]</span>
@@ -203,6 +196,7 @@ Neutral posts do not necessarily contain full clauses. For instance, they may be
 # Smileys
 
 An important caveat concerns smileys. We distinguish 3 cases:
+
 1. smileys are the ONLY indication of any sentiment.
 
 - Нужна...просто так))) <span style="float:right;"> [no sentiment]</span>
@@ -237,7 +231,7 @@ Abbreviations like LOL and OMG should also be taken into account.
 
 # Hashtags
 
-<div style="text-align: justify">Hashtags are generally treated as information units, similarly to words. The following example should be annotated as positive because both \#выпускной and \#на пляж are generally positive experiences:</div>
+Hashtags are generally treated as information units, similarly to words. The following example should be annotated as positive because both \#выпускной and \#на пляж are generally positive experiences:
 
 - На пляж по традиции :) #выпускной #prom <span style="float:right;"> [positive]</span>
 
@@ -253,9 +247,9 @@ Abbreviations like LOL and OMG should also be taken into account.
 
 # Mixed sentiment
 
-<div style="text-align: justify">Some posts contain both positive and negative sentiment words, and are therefore usually more difficult to annotate. In these cases, our policy is to annotate the **DOMINANT SENTIMENT** expressed in the post. That is, if you feel that overall the feeling expressed in the post is positive, it should be annotated as such (and vice versa).  
+Some posts contain both positive and negative sentiment words, and are therefore usually more difficult to annotate. In these cases, our policy is to annotate the **DOMINANT SENTIMENT** expressed in the post. That is, if you feel that overall the feeling expressed in the post is positive, it should be annotated as such (and vice versa).  
 
-For example, in the following example we have both positive and negative sentiment:</div>
+For example, in the following example we have both positive and negative sentiment:
 
 - Почему Женя не выбрал нашу Ирочку ?! да потому  знает что недостоин,  жить с такой красивой, умной, состоятельной, самоуверенной девушкой ! =))) <span style="float:right;"> [positive]</span>
 
@@ -281,7 +275,7 @@ The policy for some of the less clear cases is outlined below.
 - Старый, но вечно доставляющий, всегда актуальный баян))<span style="float:right;"> [positive]</span>
 - Операция на колено прошла успешно  )немного болит нога, а так все хорошо ,только скучно <span style="float:right;"> [positive]</span>
 
-<div style="text-align: justify">A frequent case of such a mixture is something positive happening **despite negative factors**:</div>
+A frequent case of such a mixture is something positive happening **despite negative factors**:
 
 - Вы не подумайте, что я люблю Америку... скорее наоборот, но..... <span style="float:right;"> [positive]</span>
 - У меня такой х***вый характер...а ты терпишь. Спасибо.<span style="float:right;"> [positive]</span>
@@ -297,7 +291,7 @@ ADD EXAMPLE
 - Когда учишь Бетховена, понимаешь, что Бах был довольно таки милым
 композитором..... <span style="float:right;"> [negative]</span>
 
-<div style="text-align: justify">The speaker’s implication here is that Beethoven is so bad that even Bach is ok in comparison (although Bach is also bad without Beethoven as a reference point). In such cases, the attitude towards the “main entity” rather than the reference point should be annotated.</div>
+The speaker’s implication here is that Beethoven is so bad that even Bach is ok in comparison (although Bach is also bad without Beethoven as a reference point). In such cases, the attitude towards the “main entity” rather than the reference point should be annotated.
 
 5. **double sentiment of the same subject:** the same segment may express both how a speaker feels and their attitude towards something, and it may differ. For example:
 
@@ -312,7 +306,7 @@ ADD EXAMPLE
 
 # What to skip
 
-<div style="text-align: justify">We are interested in **CLEAR** cases of positive or negative sentiment, so, **IF IN DOUBT - SKIP IT!** This especially concerns descriptions of experience that would be positive or negative for the annotator personally, but not necessarily for most people.</div>
+We are interested in **CLEAR** cases of positive or negative sentiment, so, **IF IN DOUBT - SKIP IT!** This especially concerns descriptions of experience that would be positive or negative for the annotator personally, but not necessarily for most people.
 
 Posts to skip include the ones in which:
 
@@ -321,22 +315,22 @@ Posts to skip include the ones in which:
 - Вчера/сегодня
 - К чертям осьминогов, Бобик из Харькова никогда не ошибается!!!
 
-**(2) The sentiment of the post as a whole is not entirely clear: **
+**(2) The sentiment of the post as a whole is not entirely clear:**
 
 - А завтра с утра опять изменю кровати с душем. Мудак.
 - вот это, блять, работа!
 - Это моя святая святых))) Незяяяяяя
 - Своих друзей не выбираю И полагаюсь лшь на сердце. Я в душу дверь не закрываю, Впущу, кто захотел согреться.  Кто появился без корысти, Без кривотолков и без злобы, С открытою душой и чистой, За словом искренним и добрым.  Они поймут меня любую, И примут все мои причуды, Мы вместе, трудности минуя, Ещё родней и ближе будем.  И друг за друга мы готовы, Вступиться, если обижают, Оружие одно лишь - слово, Мы им богатство измеряем.
 
-(3) Languages other than English (e.g Ukrainian, Russian) are used:
+**(3) Languages other than English (e.g Ukrainian, Russian) are used:**
 
 - Курва МАТЬ!!!! ШЕ 7 днів!!! Віпппіііііі)))))))
 - hair: Irina Skochko, make-up: Anna Kuzminykh
 - Ну а чим ще можна займатися, коли хворієш?))))
 
-(4) Jokes
+**(4) Jokes**
 
-<div style="text-align: justify">While jokes do imply positive mood of the user who shared them, identifying them is beyond the scope of this annotation task.  Therefore the jokes should be skipped.</div>
+While jokes do imply positive mood of the user who shared them, identifying them is beyond the scope of this annotation task.  Therefore the jokes should be skipped.
 
 - Минобороны закупает бадминтонные ракетки и воланы
 Если жизнь тебя ебет, Значит у нее встает, Значит, ты ей нравишься! Так чего ты паришься?!)))
@@ -344,7 +338,7 @@ Posts to skip include the ones in which:
 
 # Training examples
 
-<div style="text-align: justify">These pre-annotated examples were presented to annotators for training, before they proceeded to actual annotation. They got feedback on whether their label was correct, and also the reasoning behind the label that is shown below.</div>
+These pre-annotated examples were presented to annotators for training, before they proceeded to actual annotation. They got feedback on whether their label was correct, and also the reasoning behind the label that is shown below.
 
 |  | Post |Label  | Feedback shown to the annotators |
 |------|------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
