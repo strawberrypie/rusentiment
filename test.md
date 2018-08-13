@@ -1,4 +1,5 @@
-# <center>Annotation tool interface</center>
+<p style="text-align: center;"> Annotation </p>
+
  
 ![gitgub tool_interface](https://github.com/ookimi/SentimentAnnotationGuidelines/blob/master/tool_interface.png)
 
