@@ -4,14 +4,14 @@
 ~~picture goes here~~
 
 
-In order to use our web-interface, you will first complete a training. **Finish reading these guidelines before you proceed.** You will receive links and credentials for accessing the interface from the coordinator.  You will be presented with a set of training posts that are pre-annotated; after you enter your annotation, you will see how they should in fact be annotated. If anything is not clear, please refer to these guidelines again.
+<div style="text-align: justify"> In order to use our web-interface, you will first complete a training. **Finish reading these guidelines before you proceed.** You will receive links and credentials for accessing the interface from the coordinator.  You will be presented with a set of training posts that are pre-annotated; after you enter your annotation, you will see how they should in fact be annotated. If anything is not clear, please refer to these guidelines again.</div>
 
 # Sentiment annotation
-In sentiment analysis, our goal is to isolate the feeling or attitude being conveyed through a post on social media. Some posts express an obvious positive or negative sentiment or attitude towards something, and we need to select such clear, unambiguous cases. 
+<div style="text-align: justify"> In sentiment analysis, our goal is to isolate the feeling or attitude being conveyed through a post on social media. Some posts express an obvious positive or negative sentiment or attitude towards something, and we need to select such clear, unambiguous cases. 
 
 The sentiment conveyed in text may refer to (1) the speaker’s subjective mood, feeling, or emotion, or to (2) the speaker’s attitude towards something.  For example:
 
-Both the speaker’s mood and their attitude towards something can be positive or negative:
+Both the speaker’s mood and their attitude towards something can be positive or negative:<div>
 
 <table class="tg" style="width: 652px;">
 <tbody>
@@ -57,7 +57,7 @@ Both the speaker’s mood and their attitude towards something can be positive o
 </tbody>
 </table>
 
-All of the above cases (whether they deal with the speaker’s emotions/mood or evaluation/attitude) are cases of explicit sentiment - you can tell the sentiment because it is clearly stated in the post. However, in many cases the sentiment may be implicit - you can understand how the speaker feels or what his/her attitude towards something is, but it is not expressed directly. Cases of implicit sentiment include: 
+<div style="text-align: justify"> All of the above cases (whether they deal with the speaker’s emotions/mood or evaluation/attitude) are cases of explicit sentiment - you can tell the sentiment because it is clearly stated in the post. However, in many cases the sentiment may be implicit - you can understand how the speaker feels or what his/her attitude towards something is, but it is not expressed directly. Cases of implicit sentiment include:</div>
 
 <table class="tg" style="width: 637px;">
 <tbody>
@@ -114,12 +114,12 @@ All of the above cases (whether they deal with the speaker’s emotions/mood or 
 </tbody>
 </table>
 
-Unfortunately, it is not always the case that a whole single post fits one of the above categories. If the post contains several expressions of sentiment, we ask you to annotate the polarity of the post as a whole, which we define as the dominant, prevailing sentiment. Annotation of the mixed sentiment posts (such as the posts containing both positive and negative sentiment) is discussed in more detail on p. 7.
+<div style="text-align: justify"> Unfortunately, it is not always the case that a whole single post fits one of the above categories. If the post contains several expressions of sentiment, we ask you to annotate the polarity of the post as a whole, which we define as **the dominant, prevailing sentiment**. Annotation of the mixed sentiment posts (such as the posts containing both positive and negative sentiment) is discussed in more detail on p. 7.
 
-Posts may express sentiment of two different types, for example, the speaker's mood and the speaker's attitude towards something.  The polarity of these may be the same or it may differ, creating a mixed-sentiment post.  Often, the polarity will be the same.  For example, “Great! I won a free ticket!” has both an explicit evaluation of the event (Great!) and describes the experience that would be positive for many people (won free ticket). It is clear that the polarity of the post as a whole is also positive. 
+Posts may express sentiment of two different types, for example, the speaker's mood and the speaker's attitude towards something.  The polarity of these may be the same or it may differ, creating a mixed-sentiment post.  Often, the polarity will be the same.  For example, “Great! I won a free ticket!” has both an explicit evaluation of the event (Great!) and describes the experience that would be positive for many people (won free ticket). It is clear that the polarity of the post as a whole is also positive. </div>
 
 ##  Positive speech acts 
-A large portion of posts express perform the functions of various speech acts: expressing gratitude for something, congratulating a user or a group of users, greeting them. We treat these as a separate subcategory because, although generally greetings, congratulations and gratitude imply positive sentiment, they can also be performed, e.g., out of a feeling of obligation or under social pressure. So we would like to keep it an option to add or remove them in different research scenarios.
+<div style="text-align: justify"> A large portion of posts express perform the functions of various speech acts: expressing gratitude for something, congratulating a user or a group of users, greeting them. We treat these as a separate subcategory because, although generally greetings, congratulations and gratitude imply positive sentiment, they can also be performed, e.g., out of a feeling of obligation or under social pressure. So we would like to keep it an option to add or remove them in different research scenarios. </div>
 
 This group includes: 
 
@@ -142,17 +142,17 @@ This group includes:
 - Heyy girl ! long time no see..
 - What’s up!. how have you been?
 
-If there is clear irony, treat these as cases of mixed sentiment (see page 7).
+If there is clear irony, treat these as cases of mixed sentiment.
 
 ## Posts that dont express sentiment
 
-No sentiment” label is reserved for posts that simply describe some situation in a neutral, matter-of-fact way, and have no clear positive or negative sentiment. For example:
+<div style="text-align: justify">"No sentiment” label is reserved for **posts that simply describe some situation in a neutral, matter-of-fact way**, and have no clear positive or negative sentiment. For example:</div>
 
 - my friend is coming down from Indiana today to see your show tonight <span style="float:right;"> [no sentiment]</span>
 - 18 new friend requests  <span style="float:right;"> [no sentiment]</span>
 - french toast, bacon, and scrambled egg <span style="float:right;"> [no sentiment]</span>
 
-The same label applies to most matter-of-fact, non-rhetorical questions:
+The same label applies to most **matter-of-fact, non-rhetorical questions**:
 - Now, my friends, are you coming with me? <span style="float:right;"> [no sentiment]</span>
 - Where did you put my keys? <span style="float:right;"> [no sentiment]</span>
 - So, what's new? <span style="float:right;"> [no sentiment]</span>
@@ -161,14 +161,16 @@ If the post carries no overall sentiment, but is followed by smileys, please use
  - I am back online:)))😝 <span style="float:right;"> [no sentiment]</span>
  - Here is some actual data 😅😍 <span style="float:right;"> [no sentiment]</span>
 
-Other categories of posts that should be annotated with “no sentiment” label include:
+<div style="text-align: justify">Other categories of posts that should be annotated with “no sentiment” label include:</div>
 
 **(1) Advertisements:**
+
 - Free, confidential & friendly advice for people living in Central Bedfordshire. Try AdviceCentral for help on a wide range of topics. <span style="float:right;"> [no sentiment]</span>
 - We are looking for a Graphic Designer! Immediate position, in office only - no freelance. Come join us for our annual Open House this Saturday, July 14th! Lot of great hand-on opportunities for kids and adults! <span style="float:right;"> [no sentiment]</span>
 - My yacht is officially for sale. Highest bidder by Friday gets it <span style="float:right;"> [no sentiment]</span>
 
 **(2) Professional plot summaries of movies, books, etc:**
+
 - The first Deadpool remains one of my very favorite superhero movies and the sequel at least from what we've seen appears to retain the same humorous spirit that made the original so great. <span style="float:right;"> [no sentiment]</span>
 
 - "What Happened” is not one book, but many. It is a candid and blackly funny account of her mood in the direct aftermath of losing to Donald J. Trump. <span style="float:right;"> [no sentiment]</span>
@@ -189,116 +191,124 @@ Neutral posts do not necessarily contain full clauses. For instance, they may be
 
 An important caveat concerns smileys. We distinguish 3 cases:
 1. smileys are the ONLY indication of any sentiment.
- No need to help <span style="float:right;"> [no sentiment]</span>
- we are hiring! :) <span style="float:right;"> [no sentiment]</span>
 
-Such posts should be annotated with the “no sentiment” label, because the smileys here are used to simply mimic the facial expressions in a normal face-to-face conversation rather than express strong sentiment. Besides, they are easy to detect automatically
+- No need to help <span style="float:right;"> [no sentiment]</span>
+- we are hiring! :) <span style="float:right;"> [no sentiment]</span>
+
+<div style="text-align: justify">Such posts should be annotated with the**“no sentiment" label**, because the smileys here are used to simply mimic the facial expressions in a normal face-to-face conversation rather than express strong sentiment. Besides, they are easy to detect automatically. </div>
 
 2. smileys MIRROR the sentiment expressed verbally:
-That steak was outta control. I am in a food coma:)))<span style="float:right;"> [no sentiment]</span>
-bday dinner was nothing short of awesome 😍😍 and my baby looked GREAT 😜<span style="float:right;"> [no sentiment]</span>
-I have job interview. I am a nervous wreck   <span style="float:right;"> [no sentiment]</span>
+
+- That steak was outta control. I am in a food coma:)))<span style="float:right;"> [positive]</span>
+- bday dinner was nothing short of awesome 😍😍 and my baby looked GREAT 😜<span style="float:right;"> [negative]</span>
+- I have job interview. I am a nervous wreck   <span style="float:right;"> [positive]</span>
 
 Such posts should be annotated to reflect the sentiment expressed verbally.
-3. smileys CHANGE the sentiment expressed verbally:
-BAD BOY:))))))<span style="float:right;"> [no sentiment]</span>
-What an AWFUL way to lose the game Oakland 😂😂😂<span style="float:right;"> [no sentiment]</span>
 
-In such cases the overall dominant sentiment should be annotated. The smileys weaken the explicit negative evaluation in bad/awful, they indicate that the speaker is joking. The overall sentiment is positive - although it is only expressed by the smileys.
+3. smileys CHANGE the sentiment expressed verbally:
+
+- BAD BOY:))))))<span style="float:right;"> [positive]</span>
+- What an AWFUL way to lose the game Oakland 😂😂😂<span style="float:right;"> [positive]</span>
+
+<div style="text-align: justify">In such cases **the overall dominant sentiment should be annotated**. The smileys weaken the explicit negative evaluation in bad/awful, they indicate that the speaker is joking. The overall sentiment is positive - although it is only expressed by the smileys.</div>
 
 4. smileys HEDGE the overall sentiment, usually serving to make negative sentiment sound slightly less negative, but not completely reversing the sentiment.
-I'm so grumpy. The drink I ordered from @Starbucks looks and tastes like a cup of cream. Fail:)))<span style="float:right;"> [no sentiment]</span>
-Car broke down this morning, what an awful way to start my day:)))<span style="float:right;"> [no sentiment]</span>
+- I'm so grumpy. The drink I ordered from @Starbucks looks and tastes like a cup of cream. Fail:)))<span style="float:right;"> [negative]</span>
+- Car broke down this morning, what an awful way to start my day:)))<span style="float:right;"> [negative]</span>
 
-In these examples, the smileys weaken the explicit negative evaluation, but the overall sentiment is still negative. 
+<div style="text-align: justify">In these examples, the smileys weaken the explicit negative evaluation, but the overall sentiment is still negative.</div>
 
 5. Unlike smileys, words indicating mood (laughter, cries, swearing etc.) should always be taken into account. 
 
- LOL stop judging my spelling, its beautiful HAHAHA <span style="float:right;"> [no sentiment]</span>
-We had a good tournament, but fuuuck me. What a terrible way to go out. FML<span style="float:right;"> [no sentiment]</span>
+ LOL stop judging my spelling, its beautiful HAHAHA <span style="float:right;"> [negative]</span>
+We had a good tournament, but fuuuck me. What a terrible way to go out. FML<span style="float:right;"> [negative]</span>
 
 Abbreviations like LOL and OMG should also be taken into account.
 
 # Hashtags
 
-Hashtags are generally treated as information units, similarly to words. The following example should be annotated as positive because both *lifeisgood* and *happymonday* are generally positive experiences:
+<div style="text-align: justify">Hashtags are generally treated as information units, similarly to words. The following example should be annotated as positive because both \#*lifeisgood* and \#*happymonday* are generally positive experiences:</div>
 
-- Be yourself. Everyone else is taken. #happymonday #Lifeisgood #Livefully <span style="float:right;"> [no sentiment]</span>
-- We couldn’t make this #beauty up if we tried!  #bermuda #ocean #vacation #sun <span style="float:right;"> [no sentiment]</span>
+- Be yourself. Everyone else is taken. #happymonday \#Lifeisgood \#Livefully <span style="float:right;"> [positive]</span>
+- We couldn’t make this \#beauty up if we tried!  \#bermuda \#ocean \#vacation \#sun <span style="float:right;"> [positive]</span>
 
-On the other hand, similarly to words, they are to be ignored if the post consists entirely of hashtags and was probably accompanying some picture or video, and is uninterpretable without that content.
-- SayNoToRacism 
-- sayyestothedress
-- shepersisted
+<div style="text-align: justify">On the other hand, similarly to words, they are to be ignored if the post consists entirely of hashtags and was probably accompanying some picture or video, and is uninterpretable without that content.</div>
 
-However, some hashtags explicitly express the speaker’s mood or evaluation. In such cases, they should be treated accordingly, similarly to happy or terrible.
+- \#SayNoToRacism 
+- \#sayyestothedress
+- \#shepersisted
 
-Lewis should not be allowed to kick the ball #terrible <span style="float:right;"> [no sentiment]</span>
-My hair is sooo long #happy <span style="float:right;"> [no sentiment]</span>
+<div style="text-align: justify">However, some hashtags explicitly express the speaker’s mood or evaluation. In such cases, they should be treated accordingly, similarly to happy or terrible.</div>
+
+- Lewis should not be allowed to kick the ball #terrible <span style="float:right;"> [negative]</span>
+- My hair is sooo long #happy <span style="float:right;"> [positive]</span>
 
 # Mixed sentiment
 
-Some posts contain both positive and negative sentiment words, and are therefore usually more difficult to annotate. In these cases, our policy is to annotate the DOMINANT SENTIMENT expressed in the post. That is, if you feel that overall the feeling expressed in the post is positive, it should be annotated as such (and vice versa).  For example, in the following example we have both positive and negative sentiment:
+<div style="text-align: justify">Some posts contain both positive and negative sentiment words, and are therefore usually more difficult to annotate. In these cases, our policy is to annotate the DOMINANT SENTIMENT expressed in the post. That is, if you feel that overall the feeling expressed in the post is positive, it should be annotated as such (and vice versa).  For example, in the following example we have both positive and negative sentiment:</div>
 
-I am DISGUSTED with my 2013 self. Thank god ive changed
+- I am DISGUSTED with my 2013 self. Thank god ive changed
 
-While “disgusted” could be a negative experience for the girl in question, it is outweighed by the positive evaluation that follow.
+<div style="text-align: justify">While “disgusted” could be a negative experience for the girl in question, it is outweighed by the positive evaluation that follow.</div>
 
-As sad as I am that vacation is over, it was absolutely amazing to be back in my home, shower, bath, bed. And to see family last night. That felt great 
+- As sad as I am that vacation is over, it was absolutely amazing to be back in my home, shower, bath, bed. And to see family last night. That felt great 
 
-This post also contains a negative experience “vacation is over”, but it is also clearly outweighed by the positive evaluations that follow. 
+<div style="text-align: justify">This post also contains a negative experience “vacation is over”, but it is also clearly outweighed by the positive evaluations that follow.</div>
 
-1. irony, sarcasm - overall negative entity is described with positive words:
+The policy for some of the less clear cases is outlined below.
 
-- You know how I just love dog drool on my sofa <span style="float:right;"> [no sentiment]</span>
-- Thank you Captain Obvious <span style="float:right;"> [no sentiment]</span>
-- Great. Another rainy day. How wonderful <span style="float:right;"> [no sentiment]</span>
-- Ohhhh how I looove being ignored <span style="float:right;"> [no sentiment]</span>
-- My power just went out, and my mom woke me up to inform me. I'm so pleased <span style="float:right;"> [no sentiment]</span>
-- If you push it harder, it will print faster! <span style="float:right;"> [no sentiment]</span>
+1. **irony, sarcasm** - overall negative entity is described with positive words:
 
-2.  a negative characterization of some positive viewed entity, perhaps as a friendly joke:
-- Bad Santa:))) <span style="float:right;"> [no sentiment]</span>
-- You are such a bitch :)! <span style="float:right;"> [no sentiment]</span>
+- You know how I just love dog drool on my sofa <span style="float:right;"> [negative]</span>
+- Thank you Captain Obvious <span style="float:right;"> [negative]</span>
+- Great. Another rainy day. How wonderful <span style="float:right;"> [negative]</span>
+- Ohhhh how I looove being ignored <span style="float:right;"> [negative]</span>
+- My power just went out, and my mom woke me up to inform me. I'm so pleased <span style="float:right;"> [negative]</span>
+- If you push it harder, it will print faster! <span style="float:right;"> [negative]</span>
 
-3. an “acknowledging” characterization: the speaker says that overall, something is good or bad but it has some drawbacks or advantages:
-- I accept your apology but it is too late <span style="float:right;"> [no sentiment]</span>
-- It might not be perfect but it's still better than anything else <3 <span style="float:right;"> [no sentiment]</span>
-- It’s not in English but it’s pretty easy to navigate <span style="float:right;"> [no sentiment]</span>
+2.  **a negative characterization of some positive viewed entity, perhaps as a friendly joke:**
+- Bad Santa:))) <span style="float:right;"> [negative]</span>
+- You are such a bitch :)! <span style="float:right;"> [negative]</span>
 
-A frequent case of such a mixture is something positive happening despite negative factors:
+3. **an “acknowledging” characterization:** the speaker says that overall, something is good or bad but it has some drawbacks or advantages:
 
-- Im broken, miserable and hopeless but you still love me <span style="float:right;"> [no sentiment]</span>
-- Nice crowd at Big House despite bad weather forecast <span style="float:right;"> [no sentiment]</span>
+- I accept your apology but it is too late <span style="float:right;"> [negative]</span>
+- It might not be perfect but it's still better than anything else <3 <span style="float:right;"> [positive]</span>
+- It’s not in English but it’s pretty easy to navigate <span style="float:right;"> [positive]</span>
 
-Another possibility is that the positive/negative attitude towards something is situational and differing from the usual speaker’s attitude. It is the given context, some specific circumstances that change the overall evaluation. For example:
+<div style="text-align: justify">A frequent case of such a mixture is something positive happening **despite negative factors**:</div>
 
-- I really like my Iphone, but the reception here is very bad. <span style="float:right;"> [no sentiment]</span>
-- My day was going great until I remembered I haven’t seen my debit card in a couple days. <span style="float:right;"> [no sentiment]</span>
+- Im broken, miserable and hopeless but you still love me <span style="float:right;"> [positive]</span>
+- Nice crowd at Big House despite bad weather forecast <span style="float:right;"> [positive]</span>
 
-4. comparative evaluation: something characterized as good or bad in comparison to something else:
+<div style="text-align: justify">Another possibility is that the positive/negative attitude towards something is situational and differing from the usual speaker’s attitude. It is the given context, some specific circumstances that change the overall evaluation. For example:</div>
 
-- I did much better on my SAT compared to GMAT scores. <span style="float:right;"> [no sentiment]</span>
-- Life is good alone, but always better with your special someone. <span style="float:right;"> [no sentiment]</span>
-- Cooking a vegan meal is so much harder than slapping a steak on the grill. <span style="float:right;"> [no sentiment]</span>
-- This restaurant is certainly better but it’s much more expensive <span style="float:right;"> [no sentiment]</span>
+- I really like my Iphone, but the reception here is very bad. <span style="float:right;"> [negative]</span>
+- My day was going great until I remembered I haven’t seen my debit card in a couple days. <span style="float:right;"> [negative]</span>
 
-The speaker’s implication here is that restaurant is better even though more expensive compared to another one (although the other restaurant is also expensive as a reference point). In such cases, the attitude towards the “main entity” rather than the reference point should be annotated.
+4. **comparative evaluation:** something characterized as good or bad in comparison to something else:
 
-5. double sentiment of the same subject: the same segment may express both how a speaker feels and their attitude towards something, and it may differ. For example:
+- I did much better on my SAT compared to GMAT scores. <span style="float:right;"> [positive]</span>
+- Life is good alone, but always better with your special someone. <span style="float:right;"> [positive]</span>
+- Cooking a vegan meal is so much harder than slapping a steak on the grill. <span style="float:right;"> [negative]</span>
+- This restaurant is certainly better but it’s much more expensive <span style="float:right;"> [negative]</span>
 
-- I miss you so much <span style="float:right;"> [no sentiment]</span>
-- I wish I had your job <span style="float:right;"> [no sentiment]</span>
+<div style="text-align: justify">The speakers implication here is that restaurant is better even though more expensive compared to another one (although the other restaurant is also expensive as a reference point). In such cases, the attitude towards the “main entity” rather than the reference point should be annotated.</div>
 
-In both of these cases the speakers express a high opinion of something, but they feel bad for not having it. In such cases, the speaker’s mood towards something should be annotated as the main sentiment, not their attitude towards something.
+5. **double sentiment of the same subject:** the same segment may express both how a speaker feels and their attitude towards something, and it may differ. For example:
 
-6. a greeting or some other speech act added to an overall neutral, informational post:
+- I miss you so much <span style="float:right;"> [negative]</span>
+- I wish I had your job <span style="float:right;"> [negative]</span>
 
-Good afternoon friends! The 2018-2019 registration day is getting started here at Lincoln Middle School.  Remember to stop by between 10am and 7pm to complete the process.  <span style="float:right;"> [no sentiment]</span>
+<div style="text-align: justify">In both of these cases the speakers express a high opinion of something, but they feel bad for not having it. In such cases, the speaker’s mood towards something should be annotated as the main sentiment, not their attitude towards something.</div>
+
+6. a greeting or some other **speech act added to an overall neutral, informational post**:
+
+- Good afternoon friends! The 2018-2019 registration day is getting started here at Lincoln Middle School.  Remember to stop by between 10am and 7pm to complete the process.  <span style="float:right;"> [no sentiment]</span>
 
 # What to skip
 
-We are interested in CLEAR cases of positive or negative sentiment, so, IF IN DOUBT - SKIP IT! This especially concerns descriptions of experience that would be positive or negative for the annotator personally, but not necessarily for most people.
+<div style="text-align: justify">We are interested in CLEAR cases of positive or negative sentiment, so, IF IN DOUBT - SKIP IT! This especially concerns descriptions of experience that would be positive or negative for the annotator personally, but not necessarily for most people.</div>
 
 Posts to skip include the ones in which:
 
@@ -322,7 +332,7 @@ Today I will do what others won't so tomorrow I can accomplish what others can't
 
 (4) Jokes
 
-While jokes do imply positive mood of the user who shared them, identifying them is beyond the scope of this annotation task.  Therefore the jokes should be skipped.
+<div style="text-align: justify">While jokes do imply positive mood of the user who shared them, identifying them is beyond the scope of this annotation task.  Therefore the jokes should be skipped.</div>
 
 - A man walks up to a librarian and asks, "Do you have any books on Pavlov's dogs and Schrödinger's cat?" The librarian responds, "It rings a bell but I'm not sure if it's here or not." 
 - It’s great to be here this evening in the vast, magnificent Hilton ballroom — or what Mitt Romney would call a little fixer-upper.”
@@ -330,7 +340,7 @@ While jokes do imply positive mood of the user who shared them, identifying them
 
 # Training examples
 
-These pre-annotated examples were presented to annotators for training, before they proceeded to actual annotation. They got feedback on whether their label was correct, and also the reasoning behind the label that is shown below.
+<div style="text-align: justify">These pre-annotated examples were presented to annotators for training, before they proceeded to actual annotation. They got feedback on whether their label was correct, and also the reasoning behind the label that is shown below.</div>
 
 | Post | Label | Feedback shown to the annotators |  |
 |------|------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -359,9 +369,9 @@ These pre-annotated examples were presented to annotators for training, before t
 | 23 | I know this joke is stupid but I think it's also funny | + | This is mixed sentiment: the speaker expresses an overall positive evaluation of something, although it has some negative aspects. |
 | 24 | I would fly you to the moon and back | + | This is implicit sentiment: the speaker expresses wishing for an event, which implies positive aspects. |
 | 25 | honeyyyy!!! | Skip | This post is hard to interpret |
-|  | How many times do I have to tell you not to yell in the house? |  | This is a rhetorical question implying negative sentiment towards the target. |
-|  | Well, this beautiful day was a total waste of makeup. |  | This is mixed sentiment, specifically sarcasm: the speaker uses positive words to describe an entity that is actually evaluated negatively. |
-|  | I can't wait to be married. |  | Wanting or wishing for something implies a high evaluation of it, which is annotated as positive sentiment. |
+| 26 | How many times do I have to tell you not to yell in the house? | - | This is a rhetorical question implying negative sentiment towards the target. |
+| 27 | Well, this beautiful day was a total waste of makeup. | - | This is mixed sentiment, specifically sarcasm: the speaker uses positive words to describe an entity that is actually evaluated negatively. |
+| 28 | I can't wait to be married. | + | Wanting or wishing for something implies a high evaluation of it, which is annotated as positive sentiment. |
 
 
 <span style="float:right;"> [no sentiment]</span>
