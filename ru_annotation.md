@@ -12,10 +12,7 @@
 - [Training examples](#head9)
 
 
-
-
 # <a name="head1"></a>Annotation tool interface
-
 
 ![gitgub tool_interface](https://github.com/ookimi/SentimentAnnotationGuidelines/blob/master/tool_interface.png)
 
@@ -217,33 +214,33 @@ Neutral posts do not necessarily contain full clauses. For instance, they may be
 
 An important caveat concerns smileys. We distinguish 3 cases:
 
-1. smileys are the ONLY indication of any sentiment.
+**1. smileys are the ONLY indication of any sentiment.**
 
 - Нужна...просто так))) <span style="float:right;"> [no sentiment]</span>
 - Папарацци не дремлют!)))) <span style="float:right;"> [no sentiment]</span>
 
-<div style="text-align: justify">Such posts should be annotated with the**“no sentiment" label**, because the smileys here are used to simply mimic the facial expressions in a normal face-to-face conversation rather than express strong sentiment. Besides, they are easy to detect automatically. </div>
+Such posts should be annotated with the**“no sentiment" label**, because the smileys here are used to simply mimic the facial expressions in a normal face-to-face conversation rather than express strong sentiment. Besides, they are easy to detect automatically. 
 
-2. smileys MIRROR the sentiment expressed verbally:
+**2. smileys MIRROR the sentiment expressed verbally:**
 
 - Покатался =))) доволен, хочу еще! <span style="float:right;"> [positive]</span>
 - Победа - ценой руки((<span style="float:right;"> [negative]</span>
 
-Such posts should be annotated to reflect the sentiment expressed verbally.
+Such posts should be annotated to **reflect the sentiment expressed verbally.**
 
-3. smileys CHANGE the sentiment expressed verbally:
+**3. smileys CHANGE the sentiment expressed verbally:**
 
 - )))))))Плохой санта))<span style="float:right;"> [positive]</span>
 
-<div style="text-align: justify">In such cases **the overall dominant sentiment should be annotated**. The smileys weaken the explicit negative evaluation in bad/awful, they indicate that the speaker is joking. The overall sentiment is positive - although it is only expressed by the smileys.</div>
+In such cases **the overall dominant sentiment should be annotated**. The smileys weaken the explicit negative evaluation in bad/awful, they indicate that the speaker is joking. The overall sentiment is positive - although it is only expressed by the smileys.
 
-4. smileys HEDGE the overall sentiment, usually serving to make negative sentiment sound slightly less negative, but not completely reversing the sentiment.
+**4. smileys HEDGE the overall sentiment, usually serving to make negative sentiment sound slightly less negative, but not completely reversing the sentiment.**
 
 - Ну блин начало сессии:)))) всю группу так конкретно завалить...:)))<span style="float:right;"> [negative]</span>
 
-<div style="text-align: justify">In these examples, the smileys weaken the explicit negative evaluation, but the overall sentiment is still negative.</div>
+In these examples, the smileys weaken the explicit negative evaluation, but the overall sentiment is still negative.
 
-5. Unlike smileys, words indicating mood (laughter, cries, swearing etc.) should always be taken into account. 
+Unlike smileys, words indicating mood (laughter, cries, swearing etc.) should always be taken into account.
 
  - Бро, как тебе ? ахахах <span style="float:right;"> [positive]</span>
 
@@ -255,12 +252,12 @@ Hashtags are generally treated as information units, similarly to words. The fol
 
 - На пляж по традиции :) #выпускной #prom <span style="float:right;"> [positive]</span>
 
-<div style="text-align: justify">On the other hand, similarly to words, they are to be ignored if the post consists entirely of hashtags and was probably accompanying some picture or video, and is uninterpretable without that content.</div>
+On the other hand, similarly to words, they are to be ignored if the post consists entirely of hashtags and was probably accompanying some picture or video, and is uninterpretable without that content.
 
 - \#крымнашбожехранироссею
 - \#пары\#вседела
 
-<div style="text-align: justify">However, some hashtags explicitly express the speaker's mood or evaluation. In such cases, they should be treated accordingly, similarly to happy or terrible.</div>
+However, some hashtags explicitly express the speaker's mood or evaluation. In such cases, they should be treated accordingly, similarly to happy or terrible.
 
 - \#Дима_возмущается \#Недовольство <span style="float:right;"> [negative]</span>
 - YOUTUBE ввел нововведение: теперь видеохостинг не отображает просмотры, собранный роликами на сторонних сайтах. #мнененравится<span style="float:right;"> [negative]</span>
@@ -273,11 +270,11 @@ For example, in the following example we have both positive and negative sentime
 
 - Почему Женя не выбрал нашу Ирочку ?! да потому  знает что недостоин,  жить с такой красивой, умной, состоятельной, самоуверенной девушкой ! =))) <span style="float:right;"> [positive]</span>
 
-<div style="text-align: justify">While “Женя не выбрал нашу Ирочку” could be a negative experience for the girl in question, it is outweighed by the positive evaluation of the her.</div>
+While “Женя не выбрал нашу Ирочку” could be a negative experience for the girl in question, it is outweighed by the positive evaluation of the her.
 
 - Каникулы подошли к концу...Это были самые лучшие,незабываемые каникулы...У меня никогда не было такого колличества светлых впечатлений, эмоций, позитива! Таня, Катя, Егор, Андрей, Вася, Коля, Алиса-спасибо Вам!!! Вы лучшие!!!:) <span style="float:right;"> [positive]</span>
 
-<div style="text-align: justify">This post also contains a negative experience (Каникулы подошли к концу...), but it is also clearly outweighed by the positive evaluations that follow.</div>
+This post also contains a negative experience (Каникулы подошли к концу...), but it is also clearly outweighed by the positive evaluations that follow.
 
 The policy for some of the less clear cases is outlined below.
 
@@ -297,13 +294,11 @@ The policy for some of the less clear cases is outlined below.
 
 A frequent case of such a mixture is something positive happening **despite negative factors**:
 
-- Вы не подумайте, что я люблю Америку... скорее наоборот, но..... <span style="float:right;"> [positive]</span>
 - У меня такой х***вый характер...а ты терпишь. Спасибо.<span style="float:right;"> [positive]</span>
 
-<div style="text-align: justify">Another possibility is that the positive/negative attitude towards something is situational and differing from the usual speaker's attitude. It is the given context, some specific circumstances that change the overall evaluation. For example:</div>
+Another possibility is that the positive/negative attitude towards something is situational and differing from the usual speaker's attitude. It is the given context, some specific circumstances that change the overall evaluation. For example:
 
-
-ADD EXAMPLE
+- Вы не подумайте, что я люблю Америку... скорее наоборот, но..... <span style="float:right;"> [positive]</span>
 
 
 4. **comparative evaluation:** something characterized as good or bad in comparison to something else:
@@ -318,7 +313,7 @@ The speaker’s implication here is that Beethoven is so bad that even Bach is o
 - Я по тебе скучаю. <span style="float:right;"> [negative]</span>
 - Мне бы такую работу! <span style="float:right;"> [negative]</span>
 
-<div style="text-align: justify">In both of these cases the speakers express a high opinion of something, but they feel bad for not having it. In such cases, the speaker's mood towards something should be annotated as the main sentiment, not their attitude towards something.</div>
+In both of these cases the speakers express a high opinion of something, but they feel bad for not having it. In such cases, the speaker's mood towards something should be annotated as the main sentiment, not their attitude towards something.
 
 6. a greeting or some other **speech act added to an overall neutral, informational post**:
 
