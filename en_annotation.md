@@ -216,14 +216,14 @@ Neutral posts do not necessarily contain full clauses. For instance, they may be
 # <a name="head5"></a>Smileys
 
 An important caveat concerns smileys. We distinguish 3 cases:
-1. smileys are the ONLY indication of any sentiment.
+**1. smileys are the ONLY indication of any sentiment.**
 
 - No need to help <span style="float:right;"> [no sentiment]</span>
 - we are hiring! :) <span style="float:right;"> [no sentiment]</span>
 
 Such posts should be annotated with the**“no sentiment" label**, because the smileys here are used to simply mimic the facial expressions in a normal face-to-face conversation rather than express strong sentiment. Besides, they are easy to detect automatically. 
 
-2. smileys MIRROR the sentiment expressed verbally:
+**2. smileys MIRROR the sentiment expressed verbally:**
 
 - That steak was outta control. I am in a food coma:)))<span style="float:right;"> [positive]</span>
 - bday dinner was nothing short of awesome 😍😍 and my baby looked GREAT 😜<span style="float:right;"> [negative]</span>
@@ -231,23 +231,23 @@ Such posts should be annotated with the**“no sentiment" label**, because the s
 
 Such posts should be annotated to reflect the sentiment expressed verbally.
 
-3. smileys CHANGE the sentiment expressed verbally:
+**3. smileys CHANGE the sentiment expressed verbally:**
 
 - BAD BOY:))))))<span style="float:right;"> [positive]</span>
 - What an AWFUL way to lose the game Oakland 😂😂😂<span style="float:right;"> [positive]</span>
 
 In such cases **the overall dominant sentiment should be annotated**. The smileys weaken the explicit negative evaluation in bad/awful, they indicate that the speaker is joking. The overall sentiment is positive - although it is only expressed by the smileys.
 
-4. smileys HEDGE the overall sentiment, usually serving to make negative sentiment sound slightly less negative, but not completely reversing the sentiment.
+**4. smileys HEDGE the overall sentiment, usually serving to make negative sentiment sound slightly less negative, but not completely reversing the sentiment.**
 - I'm so grumpy. The drink I ordered from @Starbucks looks and tastes like a cup of cream. Fail:)))<span style="float:right;"> [negative]</span>
 - Car broke down this morning, what an awful way to start my day:)))<span style="float:right;"> [negative]</span>
 
 In these examples, the smileys weaken the explicit negative evaluation, but the overall sentiment is still negative.
 
-5. Unlike smileys, words indicating mood (laughter, cries, swearing etc.) should always be taken into account. 
+Unlike smileys, words indicating mood (laughter, cries, swearing etc.) should always be taken into account.
 
- LOL stop judging my spelling, its beautiful HAHAHA <span style="float:right;"> [negative]</span>
-We had a good tournament, but fuuuck me. What a terrible way to go out. FML<span style="float:right;"> [negative]</span>
+- LOL stop judging my spelling, its beautiful HAHAHA <span style="float:right;"> [negative]</span>
+- We had a good tournament, but fuuuck me. What a terrible way to go out. FML<span style="float:right;"> [negative]</span>
 
 Abbreviations like LOL and OMG should also be taken into account.
 
@@ -293,8 +293,8 @@ The policy for some of the less clear cases is outlined below.
 - If you push it harder, it will print faster! <span style="float:right;"> [negative]</span>
 
 2.  **a negative characterization of some positive viewed entity, perhaps as a friendly joke:**
-- Bad Santa:))) <span style="float:right;"> [negative]</span>
-- You are such a bitch :)! <span style="float:right;"> [negative]</span>
+- Bad Santa:))) <span style="float:right;"> [positive]</span>
+- You are such a bitch :)! <span style="float:right;"> [positive]</span>
 
 3. **an “acknowledging” characterization:** the speaker says that overall, something is good or bad but it has some drawbacks or advantages:
 
