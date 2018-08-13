@@ -47,7 +47,7 @@ Both the speaker’s mood and their attitude towards something can be positive o
 <th class="tg-031e" style="width: 233px;">Negative</th>
 </tr>
 <tr>
-<td class="tg-031e" style="width: 182px;">**Emotions, mood of the speake**r</td>
+<td class="tg-031e" style="width: 182px;">Emotions, mood of the speake</td>
 <td class="tg-031e" style="width: 227px;">
 <p>happiness, pride, love, inspiration, serenity, interest&hellip;</p>
 <ul>
@@ -65,7 +65,7 @@ Both the speaker’s mood and their attitude towards something can be positive o
 </td>
 </tr>
 <tr>
-<td class="tg-031e" style="width: 182px;">**Evaluation, attitude towards some entity or event**</td>
+<td class="tg-031e" style="width: 182px;">Evaluation, attitude towards some entity or event</td>
 <td class="tg-031e" style="width: 227px;">
 <ul>
 <li>I'm looking forward to next year's July event</li>
@@ -93,7 +93,7 @@ All of the above cases (whether they deal with the speaker’s emotions/mood or 
 <th class="tg-l711" style="width: 259px;">Negative</th>
 </tr>
 <tr>
-<td class="tg-l711" style="width: 137px;">**Wishing (or not) for something, recommendations**<br /><br />EVALUATION IS IMPLIED</td>
+<td class="tg-l711" style="width: 137px;">Wishing (or not) for something, recommendations<br /><br />EVALUATION IS IMPLIED</td>
 <td class="tg-l711" style="width: 229px;"><br />
 <ul>
 <li>Definitely follow these bloggers in 2018</li>
@@ -111,7 +111,7 @@ All of the above cases (whether they deal with the speaker’s emotions/mood or 
 </td>
 </tr>
 <tr>
-<td class="tg-l711" style="width: 137px;">**Descriptions of experience that most people would consider positive or negative**<br /><br />EMOTION IS IMPLIED</td>
+<td class="tg-l711" style="width: 137px;">Descriptions of experience that most people would consider positive or negative<br /><br />EMOTION IS IMPLIED</td>
 <td class="tg-l711" style="width: 229px;">
 <ul>
 <li>We won! All the love Sometimes it only takes a sunset to make you realize that life is still worth living after all</li>
@@ -140,7 +140,7 @@ All of the above cases (whether they deal with the speaker’s emotions/mood or 
 </tbody>
 </table>
 
-Unfortunately, it is not always the case that a whole single post fits one of the above categories. If the post contains several expressions of sentiment, we ask you to annotate the polarity of the post as a whole, which we define as **the dominant, prevailing sentiment**. Annotation of the mixed sentiment posts (such as the posts containing both positive and negative sentiment) is discussed in more detail on PAGE 7 [here](#head4)
+Unfortunately, it is not always the case that a whole single post fits one of the above categories. If the post contains several expressions of sentiment, we ask you to annotate the polarity of the post as a whole, which we define as **the dominant, prevailing sentiment**. Annotation of the mixed sentiment posts (such as the posts containing both positive and negative sentiment) is discussed in more detail [here](#head4)
 
 Posts may express sentiment of two different types, for example, the speaker's mood and the speaker's attitude towards something.  The polarity of these may be the same or it may differ, creating a mixed-sentiment post.  Often, the polarity will be the same.  For example, “Great! I won a free ticket!” has both an explicit evaluation of the event (Great!) and describes the experience that would be positive for many people (won free ticket). It is clear that the polarity of the post as a whole is also positive. </div>
 
