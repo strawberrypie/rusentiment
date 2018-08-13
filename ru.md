@@ -4,11 +4,6 @@ In sentiment analysis, our goal is to isolate the feeling or attitude being conv
 
 The sentiment conveyed in text may refer to (1) the speaker’s subjective mood, feeling, or emotion, or to (2) the speaker’s attitude towards something.  For example:
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-031e">(1) Speaker mood/emotions</th>
@@ -25,7 +20,6 @@ The sentiment conveyed in text may refer to (1) the speaker’s subjective mood,
 </table>
 
 Both the speaker’s mood and their attitude towards something can be positive or negative:
-
 
 
 <table class="tg" style="width: 652px;">
@@ -379,6 +373,7 @@ These pre-annotated examples were presented to annotators for training, before t
 |  | I can't wait to be married. |  | Wanting or wishing for something implies a high evaluation of it, which is annotated as positive sentiment. |
 
 
+<span style="float:right;"> [no sentiment]</span>
 
 
 
