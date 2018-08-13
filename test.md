@@ -1,10 +1,24 @@
-<p align="center"> <h1>Annotation tool interface</h1></p>
+- [<center> Positive speech acts</center>](#-center--positive-speech-acts--center-)
+- [<center>Posts that dont express sentiment</center>](#-center-posts-that-dont-express-sentiment--center-)
+- [<center>Smileys</center>](#-center-smileys--center-)
+- [<center>Hashtags</center>](#-center-hashtags--center-)
+- [<center>Mixed sentiment</center>](#-center-mixed-sentiment--center-)
+- [<center>What to skip</center>](#-center-what-to-skip--center-)
+- [<center>Training examples</center>](#-center-training-examples--center-)
+- [Paste Your Document In Here](#paste-your-document-in-here)
+  * [And a table of contents](#and-a-table-of-contents)
+  * [On the right](#on-the-right)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+#Annotation tool interface
 
 ![gitgub tool_interface](https://github.com/ookimi/SentimentAnnotationGuidelines/blob/master/tool_interface.png)
 
-<p align="justify">In order to use our web-interface, you will first complete a training. <b>Finish reading these guidelines before you proceed</b>.  You will receive links and credentials for accessing the interface from the coordinator.  You will be presented with a set of training posts that are pre-annotated; after you enter your annotation, you will see how they should in fact be annotated. If anything is not clear, please refer to these guidelines again.</p>
+In order to use our web-interface, you will first complete a training. **Finish reading these guidelines before you proceed**.  You will receive links and credentials for accessing the interface from the coordinator.  You will be presented with a set of training posts that are pre-annotated; after you enter your annotation, you will see how they should in fact be annotated. If anything is not clear, please refer to these guidelines again.
 
-<h1>Sentiment annotation </h1>
+#Sentiment annotation
 
 In sentiment analysis, our goal is to isolate the feeling or attitude being conveyed through a post on social media. Some posts express an obvious positive or negative sentiment or attitude towards something, and we need to select such clear, unambiguous cases. 
 
