@@ -1,15 +1,8 @@
-- [<center> Positive speech acts</center>](#-center--positive-speech-acts--center-)
-- [<center>Posts that dont express sentiment</center>](#-center-posts-that-dont-express-sentiment--center-)
-- [<center>Smileys</center>](#-center-smileys--center-)
-- [<center>Hashtags</center>](#-center-hashtags--center-)
-- [<center>Mixed sentiment</center>](#-center-mixed-sentiment--center-)
-- [<center>What to skip</center>](#-center-what-to-skip--center-)
-- [<center>Training examples</center>](#-center-training-examples--center-)
-- [Paste Your Document In Here](#paste-your-document-in-here)
-  * [And a table of contents](#and-a-table-of-contents)
-  * [On the right](#on-the-right)
+#table of context
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+Take me to [Annotation tool interface](#Annotation tool interface)
+take me to [Sentiment annotation](#Sentiment annotation)
+[Posts that dont express sentiment](#Posts that dont express sentiment)
 
 
 #Annotation tool interface
@@ -18,7 +11,7 @@
 
 In order to use our web-interface, you will first complete a training. **Finish reading these guidelines before you proceed**.  You will receive links and credentials for accessing the interface from the coordinator.  You will be presented with a set of training posts that are pre-annotated; after you enter your annotation, you will see how they should in fact be annotated. If anything is not clear, please refer to these guidelines again.
 
-#Sentiment annotation
+<h1>Sentiment annotation</hi>
 
 In sentiment analysis, our goal is to isolate the feeling or attitude being conveyed through a post on social media. Some posts express an obvious positive or negative sentiment or attitude towards something, and we need to select such clear, unambiguous cases. 
 
@@ -146,7 +139,7 @@ Unfortunately, it is not always the case that a whole single post fits one of th
 
 Posts may express sentiment of two different types, for example, the speaker's mood and the speaker's attitude towards something.  The polarity of these may be the same or it may differ, creating a mixed-sentiment post.  Often, the polarity will be the same.  For example, “круто! Выиграла бесплатный билет” has both an explicit evaluation of the event (круто!) and describes the experience that would be positive for many people (Выиграла бесплатный билет). It is clear that the polarity of the post as a whole is also positive.
 
-# <center> Positive speech acts</center>
+<h1>Positive speech acts</h1>
 A large portion of posts express perform the functions of various speech acts: expressing gratitude for something, congratulating a user or a group of users, greeting them. We treat these as a separate subcategory because, although generally greetings, congratulations and gratitude imply positive sentiment, they can also be performed, e.g., out of a feeling of obligation or under social pressure. So we would like to keep it an option to add or remove them in different research scenarios.
 
 This group includes: 
@@ -171,7 +164,7 @@ This group includes:
 
 If there is clear irony, treat these as cases of mixed sentiment.
 
-# <center>Posts that dont express sentiment</center>
+#Posts that dont express sentiment
 
 "No sentiment” label is reserved for **posts that simply describe some situation in a neutral, matter-of-fact way**, and have no clear positive or negative sentiment. For example:</div>
 
@@ -209,7 +202,7 @@ Neutral posts do not necessarily contain full clauses. For instance, they may be
 - "Самолет с крыльями и окнами" <span style="float:right;"> [no sentiment]</span>
 - Тесты по математике, ГИА-2011, 9 класс <span style="float:right;"> [no sentiment]</span>
 
-# <center>Smileys</center>
+#Smileys
 
 An important caveat concerns smileys. We distinguish 3 cases:
 
@@ -245,7 +238,7 @@ Such posts should be annotated to reflect the sentiment expressed verbally.
 
 Abbreviations like LOL and OMG should also be taken into account.
 
-# <center>Hashtags</center>
+#Hashtags
 
 Hashtags are generally treated as information units, similarly to words. The following example should be annotated as positive because both \#выпускной and \#на пляж are generally positive experiences:
 
@@ -261,7 +254,7 @@ Hashtags are generally treated as information units, similarly to words. The fol
 - \#Дима_возмущается \#Недовольство <span style="float:right;"> [negative]</span>
 - YOUTUBE ввел нововведение: теперь видеохостинг не отображает просмотры, собранный роликами на сторонних сайтах. #мнененравится<span style="float:right;"> [negative]</span>
 
-# <center>Mixed sentiment</center>
+#Mixed sentiment
 
 Some posts contain both positive and negative sentiment words, and are therefore usually more difficult to annotate. In these cases, our policy is to annotate the **DOMINANT SENTIMENT** expressed in the post. That is, if you feel that overall the feeling expressed in the post is positive, it should be annotated as such (and vice versa).  
 
@@ -320,7 +313,7 @@ The speaker’s implication here is that Beethoven is so bad that even Bach is o
 
 - Всем​ ​желаю​ ​здравствовать​ ​!​ ​Выясняется потребность/интерес в механах из боевых бакелитовых корпусов 5,45 и 7,62, варианты для М серии...Если не трудно поделитесь опытом перепила или использования если таковой имеется.  <span style="float:right;"> [no sentiment]</span>
 
-# <center>What to skip</center>
+#What to skip
 
 We are interested in **CLEAR** cases of positive or negative sentiment, so, **IF IN DOUBT - SKIP IT!** This especially concerns descriptions of experience that would be positive or negative for the annotator personally, but not necessarily for most people.
 
@@ -352,7 +345,7 @@ While jokes do imply positive mood of the user who shared them, identifying them
 Если жизнь тебя ебет, Значит у нее встает, Значит, ты ей нравишься! Так чего ты паришься?!)))
 выпал зубик? не беда нам поможет- ПВА
 
-# <center>Training examples</center>
+#Training examples
 
 These pre-annotated examples were presented to annotators for training, before they proceeded to actual annotation. They got feedback on whether their label was correct, and also the reasoning behind the label that is shown below.
 
