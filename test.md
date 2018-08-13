@@ -1,12 +1,10 @@
-# <center>Annotation tool interface</center>
-
-#<p align="center">centered text</p>
+<p align="center"> <h1>Annotation tool interface</h1></p>
 
 ![gitgub tool_interface](https://github.com/ookimi/SentimentAnnotationGuidelines/blob/master/tool_interface.png)
 
 <p align="justify">In order to use our web-interface, you will first complete a training. <b>Finish reading these guidelines before you proceed</b>.  You will receive links and credentials for accessing the interface from the coordinator.  You will be presented with a set of training posts that are pre-annotated; after you enter your annotation, you will see how they should in fact be annotated. If anything is not clear, please refer to these guidelines again.</p>
 
-#Sentiment annotation
+<h1>Sentiment annotation </h1>
 
 In sentiment analysis, our goal is to isolate the feeling or attitude being conveyed through a post on social media. Some posts express an obvious positive or negative sentiment or attitude towards something, and we need to select such clear, unambiguous cases. 
 
