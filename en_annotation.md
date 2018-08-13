@@ -216,6 +216,7 @@ Neutral posts do not necessarily contain full clauses. For instance, they may be
 # <a name="head5"></a>Smileys
 
 An important caveat concerns smileys. We distinguish 3 cases:
+
 **1. smileys are the ONLY indication of any sentiment.**
 
 - No need to help <span style="float:right;"> [no sentiment]</span>
