@@ -1,15 +1,18 @@
-#table of context
 
-Take me to [pookie](#pookie)
 
-#Annotation tool interface
+Take me to [Annotation tool interface](#head1)
+Take me to [Sentiment annotation](#head2)
+Take me to [Positive speach acts](#head3)
+
+
+#<a name="head1"></a>Annotation tool interface
 
 
 ![gitgub tool_interface](https://github.com/ookimi/SentimentAnnotationGuidelines/blob/master/tool_interface.png)
 
 In order to use our web-interface, you will first complete a training. **Finish reading these guidelines before you proceed**.  You will receive links and credentials for accessing the interface from the coordinator.  You will be presented with a set of training posts that are pre-annotated; after you enter your annotation, you will see how they should in fact be annotated. If anything is not clear, please refer to these guidelines again.
 
-#Sentiment annotation
+#<a name="head2"></a>Sentiment annotation
 
 In sentiment analysis, our goal is to isolate the feeling or attitude being conveyed through a post on social media. Some posts express an obvious positive or negative sentiment or attitude towards something, and we need to select such clear, unambiguous cases. 
 
@@ -137,7 +140,7 @@ Unfortunately, it is not always the case that a whole single post fits one of th
 
 Posts may express sentiment of two different types, for example, the speaker's mood and the speaker's attitude towards something.  The polarity of these may be the same or it may differ, creating a mixed-sentiment post.  Often, the polarity will be the same.  For example, “круто! Выиграла бесплатный билет” has both an explicit evaluation of the event (круто!) and describes the experience that would be positive for many people (Выиграла бесплатный билет). It is clear that the polarity of the post as a whole is also positive.
 
-#Positive speech acts
+##<a name="head3"></a>Positive speech acts
 
 A large portion of posts express perform the functions of various speech acts: expressing gratitude for something, congratulating a user or a group of users, greeting them. We treat these as a separate subcategory because, although generally greetings, congratulations and gratitude imply positive sentiment, they can also be performed, e.g., out of a feeling of obligation or under social pressure. So we would like to keep it an option to add or remove them in different research scenarios.
 
