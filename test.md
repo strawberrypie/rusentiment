@@ -10,7 +10,20 @@
 <div style="text-align: justify"> In sentiment analysis, our goal is to isolate the feeling or attitude being conveyed through a post on social media. Some posts express an obvious positive or negative sentiment or attitude towards something, and we need to select such clear, unambiguous cases. 
 
 The sentiment conveyed in text may refer to (1) the speaker’s subjective mood, feeling, or emotion, or to (2) the speaker’s attitude towards something.  For example:
-
+<table class="tg">
+  <tr>
+    <th class="tg-031e">(1) Speaker mood/emotions</th>
+    <th class="tg-031e">(2) Evaluation of an entity or event</th>
+  </tr>
+  <tr>
+    <td class="tg-031e">I am so excited!</td>
+    <td class="tg-031e">Princess and the frog is a great movie</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">I am happy</td>
+    <td class="tg-031e">Our Country is doing great</td>
+  </tr>
+</table>
 Both the speaker’s mood and their attitude towards something can be positive or negative:<div>
 
 <table class="tg" style="width: 652px;">
