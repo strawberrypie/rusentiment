@@ -12,7 +12,7 @@
 
 # <a name="head1"></a>Annotation tool interface
 
-![gitgub image](https://github.com/ookimi/SentimentAnnotationGuidelines/blob/master/tool_interface.png)
+![annotation_interface](./img/tool_interface.png)
 
 
 In order to use our web-interface, you will first complete a training. **Finish reading these guidelines before you proceed.** You will receive links and credentials for accessing the interface from the coordinator.  You will be presented with a set of training posts that are pre-annotated; after you enter your annotation, you will see how they should in fact be annotated. If anything is not clear, please refer to these guidelines again.
