@@ -13,6 +13,7 @@ Both RuSentiment and the guidelines are available for non-commercial use.
 Project page: http://text-machine.cs.uml.edu/projects/rusentiment/
 
 Published paper (COLING 2018): 
+
 Rogers, A., Romanov, A., Rumshisky, A., Volkova, S., Gronas, M. and Gribov, A., 2018. RuSentiment: An Enriched Sentiment Analysis Dataset for Social Media in Russian. In Proceedings of the 27th International Conference on Computational Linguistics (pp. 755-763). [PDF](http://aclweb.org/anthology/C18-1064) | [BibTex](https://dblp.uni-trier.de/rec/bibtex/conf/coling/RogersRRVGG18)
 
 Highlights of our annotation policy:
@@ -24,4 +25,4 @@ Highlights of our annotation policy:
  - cases of mixed sentiment are annotated for the dominant sentiment of the post, and the guidelines cover 6 frequent cases of mixed sentiment to improve inter-annotator agreement;
  - hashtags and smileys are *not* treated as automatic sentiment labels.
  
-For Russian these guideines yielded annotation speed of 250-350 posts per hour, with Fleiss kappa of 0.654 for randomly selected posts. See [our paper](http://aclweb.org/anthology/C18-1064) for details on how active learning influenced the inter-annotator agreement.
+For Russian these guideines yielded annotation speed of 250-350 posts per hour, with Fleiss kappa of 0.654 for randomly selected posts. See paper for details on how active learning influenced the inter-annotator agreement.
