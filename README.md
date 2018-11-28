@@ -12,7 +12,7 @@ Both RuSentiment and the guidelines are available for non-commercial use.
 
 Project page: http://text-machine.cs.uml.edu/projects/rusentiment/
 
-Paper: Rogers, A., Romanov, A., Rumshisky, A., Volkova, S., Gronas, M. and Gribov, A., 2018. RuSentiment: An Enriched Sentiment Analysis Dataset for Social Media in Russian. In Proceedings of COLING 2018 (pp. 755-763). [PDF](http://aclweb.org/anthology/C18-1064) | [BibTex](https://dblp.uni-trier.de/rec/bibtex/conf/coling/RogersRRVGG18)
+Paper: "Rogers, A., Romanov, A., Rumshisky, A., Volkova, S., Gronas, M. and Gribov, A., 2018. RuSentiment: An Enriched Sentiment Analysis Dataset for Social Media in Russian. In Proceedings of COLING 2018 (pp. 755-763)." [PDF](http://aclweb.org/anthology/C18-1064) | [BibTex](https://dblp.uni-trier.de/rec/bibtex/conf/coling/RogersRRVGG18)
 
 Highlights of our annotation policy:
 
